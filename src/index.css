@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Share Tech Mono", "Courier New", monospace;
+  --font-retro: "Press Start 2P", monospace;
+  --color-vibrant-bg: #1a1c2c;
+  --color-vibrant-panel: #292c3d;
+  --color-vibrant-border: #3d4159;
+  --color-vibrant-glass: #292c3dbf;
+  --color-vibrant-accent-green: #38b764;
+  --color-vibrant-accent-orange: #ef7d57;
+  --color-vibrant-accent-cyan: #73eff7;
+  --color-vibrant-accent-yellow: #f2e41c;
+}
+
+body {
+  background-color: #1a1c2c;
+  color: #f4f4f4;
+  font-family: var(--font-mono);
+}

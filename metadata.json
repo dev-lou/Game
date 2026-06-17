@@ -1,0 +1,6 @@
+{
+  "name": "8-Bit Machine Runner",
+  "description": "An 8-bit platformer inspired by the Google T-Rex game, controlled by real-time webcam gestures from your Teachable Machine model.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
